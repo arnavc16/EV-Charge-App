@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "503910458554",
+    "firebase_url": "https://electric-bunk.firebaseio.com",
+    "project_id": "electric-bunk",
+    "storage_bucket": "electric-bunk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503910458554:android:cca1a96dc801519a184e83",
+        "android_client_info": {
+          "package_name": "com.electric.bunk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503910458554-o888vrakgk7g0sgao88fbjpialdkc1f3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.electric.bunk",
+            "certificate_hash": "5c35d992587816976da8a702fc500ff0afd43f7b"
+          }
+        },
+        {
+          "client_id": "503910458554-5g8ij7s4i4s0mu7rnsapsu7ls2aj6hb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0fo9vgZ75tZCNed5GBCRIRV67sYMRVnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503910458554-5g8ij7s4i4s0mu7rnsapsu7ls2aj6hb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/stroke_main"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/Heading"
+        android:gravity="center"
+        android:textColor="@color/appcolor"
+        android:text="@string/rate_bunk"/>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/normalText"
+        android:text="Let us know about your experience"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:id="@+id/ratingBar"/>
+
+
+    <TextView
+        style="@style/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/describe_your_experience" />
+
+    <EditText
+        android:id="@+id/et_rating"
+        style="@style/normalText"
+        android:layout_width="match_parent"
+        android:hint="Write here..."
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLines="3"/>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_yes"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:textColor="@color/white"
+            android:background="@drawable/button_bg"
+            android:padding="10dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/submit"/>
+        <TextView
+            android:id="@+id/btn_no"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:textColor="@color/white"
+            android:background="@drawable/button_bg"
+            android:padding="10dp"
+            android:text="@string/cancel"/>
+
+    </LinearLayout>
+
+</LinearLayout>
